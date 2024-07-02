@@ -1,0 +1,69 @@
+@media(max-width:768px){
+    .datos{
+        display: grid;
+        height: 200px;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(2,50%);
+        grid-template-areas: 
+        "camion camion"
+        "tarjeta candado"
+    }
+
+    .camion{
+        grid-area: camion;
+    }
+
+    .tarjeta{
+        grid-area: tarjeta;
+        border-left: none;
+        border-right: none;
+    }
+
+    .candado{
+        grid-area: candado;
+    }
+}
+
+@media(max-width:520px){
+    .datos{
+        display: grid;
+        height: 470px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1,60%);
+        grid-template-rows: repeat(3,160px);
+        grid-template-areas: 
+        "camion"
+        "tarjeta"
+        "candado"
+    }
+    
+    .camion{
+        grid-area: camion;
+        padding-bottom: 25px;
+    }
+    
+    .tarjeta{
+        grid-area: tarjeta;
+        padding: 15px 0px;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    
+    .candado{
+        padding-top: 25px;
+        grid-area: candado;
+    }
+}
+
+@media(max-width:320px){
+    .camion{
+        padding-bottom: 25px;
+    }
+
+    .candado{
+        padding-top: 25px;
+    }
+}

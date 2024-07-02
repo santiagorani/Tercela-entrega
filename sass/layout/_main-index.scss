@@ -1,0 +1,46 @@
+.showroom {
+  font-family: "Lexend Zetta", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white; }
+
+.descuento p {
+  font-family: "Zen Dots", sans-serif;
+  font-size: 50px;
+  color: white; }
+
+.descuento p {
+  text-align: center;
+  align-content: center;
+  height: 100%;
+  font-size: 65px; }
+
+.ver-mas-fotos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flecha-izquierda img:active {
+  background-color: #a7a7a7; }
+
+.flecha-derecha img:active {
+  background-color: #a7a7a7; }
+
+.ver-mas-productos{
+text-align: center; }
+
+.ver-mas-productos a{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-family: "Krona One", sans-serif;
+  font-size: 15px; 
+  padding: 10px 80px; }
+
+.ver-mas-productos a:hover {
+  background-color: #232323; }
+
+.ver-mas-productos a:active {
+  background-color: #3a3a3a; }

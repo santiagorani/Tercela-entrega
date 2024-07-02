@@ -1,0 +1,55 @@
+.cohete {
+    text-align: center; }
+  
+  .cohete h3 {
+    font-family: "Krona One", sans-serif;
+    font-size: 30px; }
+  
+  .cohete-productos {
+    text-align: center; }
+  
+  .cohete-productos h3 {
+    font-family: "Krona One", sans-serif;
+    font-size: 30px; }
+  
+  .prendas{
+    display: flex;
+    justify-content: center;
+    gap: 40px; }
+  
+  .prendas div {
+    width: 320px;
+    height: 300px;
+    padding: 25px 20px; }
+  
+  .prendas div p{
+    color: white;
+    text-decoration: none;
+    font-family: "Krona One", sans-serif;
+    font-size: 25px; }
+
+
+.datos {
+    display: flex;
+    font-family: "Krona One", sans-serif;
+    font-size: 15px; }
+  
+  .datos div {
+    width: 100%;
+    text-align: center; }
+  
+  .tarjeta {
+    border-left: 1px solid black;
+    border-right: 1px solid black; }
+
+    .foto-negro{
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+      }
+      
+      .foto-negro img{
+        width: 50%;
+        height: 5px;
+        border-radius: 30px;
+      }

@@ -1,0 +1,23 @@
+.datos-filas {
+  display: flex;
+  font-size: 20px;
+  width: 100%; }
+
+.datos-filas div{
+  width: 100%;
+  text-align: center; 
+  padding: 5px; }
+
+.datos-filas div img{
+  padding: 50px;
+}
+
+.datos-filas div a{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-family: "Krona One", sans-serif;
+  font-size: 10px;
+  align-content: center;
+  padding: 10px 10px; 
+}

@@ -1,0 +1,42 @@
+/* BASE */
+
+@import "./base/reset";
+@import "./base/tipografias";
+
+
+/* COMPONENTS */
+
+@import "./components/bootstrap";
+@import "./components/card";
+@import "./components/navbar";
+
+
+/* LAYOUT */
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-productos";
+@import "./layout/main-quienes-somos";
+@import "./layout/main-como-comprar";
+@import "./layout/main-fotos";
+@import "./layout/main-carrito";
+@import "./layout/main-inicio-de-sesion";
+@import "./layout/footer";
+
+
+/* UTILITIES */
+
+@import "./utilities/funciones";
+@import "./utilities/mapas";
+@import "./utilities/mixin";
+@import "./utilities/variables";
+
+
+/* MEDIA QUERY */
+
+@import "./layout/mediaQ/media-navbar";
+@import "./layout/mediaQ/media-datos";
+@import "./layout/mediaQ/media-pie-de-pagina";
+@import "./layout/mediaQ/media-quienes-somos";
+@import "./layout/mediaQ/medias-como-comprar";
+@import "./layout/mediaQ/media-iniciar-sesion";

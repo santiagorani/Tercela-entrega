@@ -1,0 +1,492 @@
+@charset "UTF-8";
+/* BASE */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0; }
+
+/* COMPONENTS */
+.cohete {
+  text-align: center; }
+
+.cohete h3 {
+  font-family: "Krona One", sans-serif;
+  font-size: 30px; }
+
+.cohete-productos {
+  text-align: center; }
+
+.cohete-productos h3 {
+  font-family: "Krona One", sans-serif;
+  font-size: 30px; }
+
+.prendas {
+  display: flex;
+  justify-content: center;
+  gap: 40px; }
+
+.prendas div {
+  width: 320px;
+  height: 300px;
+  padding: 25px 20px; }
+
+.prendas div p {
+  color: white;
+  text-decoration: none;
+  font-family: "Krona One", sans-serif;
+  font-size: 25px; }
+
+.datos {
+  display: flex;
+  font-family: "Krona One", sans-serif;
+  font-size: 15px; }
+
+.datos div {
+  width: 100%;
+  text-align: center; }
+
+.tarjeta {
+  border-left: 1px solid black;
+  border-right: 1px solid black; }
+
+.foto-negro {
+  width: 100%;
+  justify-content: center;
+  text-align: center; }
+
+.foto-negro img {
+  width: 50%;
+  height: 5px;
+  border-radius: 30px; }
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 80px; }
+
+.navbar div {
+  width: 100%;
+  height: 100%;
+  color: white;
+  align-content: center;
+  text-align: center; }
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-family: "Jacques Francois", serif;
+  font-size: 20px;
+  padding: 25px 10px; }
+
+.item1:hover {
+  background-color: #2c2c2c; }
+
+.item1:active {
+  background-color: #3d3d3d; }
+
+.item2:hover {
+  background-color: #2c2c2c; }
+
+.item2:active {
+  background-color: #3d3d3d; }
+
+.item3:hover {
+  background-color: #2c2c2c; }
+
+.item3:active {
+  background-color: #3d3d3d; }
+
+.item4:hover {
+  background-color: #2c2c2c; }
+
+.item4:active {
+  background-color: #3d3d3d; }
+
+.item5:hover {
+  background-color: #2c2c2c; }
+
+.item5:active {
+  background-color: #3d3d3d; }
+
+.item6:hover {
+  background-color: #2c2c2c; }
+
+.item6:active {
+  background-color: #3d3d3d; }
+
+.item1 {
+  background-color: #232323; }
+
+.item2 {
+  background-color: #232323; }
+
+.item3 {
+  background-color: #232323; }
+
+.item4 {
+  background-color: #232323; }
+
+.item5 {
+  background-color: #232323; }
+
+.item6 {
+  background-color: #232323; }
+
+/* LAYOUT */
+.titulo {
+  gap: 1.25rem;
+  text-align: center; }
+
+.titulo h1 a {
+  font-family: "Krona One", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 45px; }
+
+.titulo2 {
+  gap: 1.25rem;
+  text-align: center; }
+
+.titulo2 h1 a {
+  font-family: "Krona One", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 45px; }
+
+.showroom {
+  font-family: "Lexend Zetta", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white; }
+
+.descuento p {
+  font-family: "Zen Dots", sans-serif;
+  font-size: 50px;
+  color: white; }
+
+.descuento p {
+  text-align: center;
+  align-content: center;
+  height: 100%;
+  font-size: 65px; }
+
+.ver-mas-fotos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flecha-izquierda img:active {
+  background-color: #a7a7a7; }
+
+.flecha-derecha img:active {
+  background-color: #a7a7a7; }
+
+.ver-mas-productos {
+  text-align: center; }
+
+.ver-mas-productos a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-family: "Krona One", sans-serif;
+  font-size: 15px;
+  padding: 10px 80px; }
+
+.ver-mas-productos a:hover {
+  background-color: #232323; }
+
+.ver-mas-productos a:active {
+  background-color: #3a3a3a; }
+
+.datos-filas {
+  display: flex;
+  font-size: 20px;
+  width: 100%; }
+
+.datos-filas div {
+  width: 100%;
+  text-align: center;
+  padding: 5px; }
+
+.datos-filas div img {
+  padding: 50px; }
+
+.datos-filas div a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-family: "Krona One", sans-serif;
+  font-size: 10px;
+  align-content: center;
+  padding: 10px 10px; }
+
+.somos {
+  width: 100%;
+  padding: 10px 200px;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center; }
+
+.somos p {
+  padding: 10px; }
+
+.paso-a-paso {
+  text-align: left;
+  font-size: 20px;
+  padding: 10px 250px; }
+
+.paso-a-paso p b {
+  padding-left: 15px; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(4, 200px);
+  gap: .624rem;
+  justify-content: center; }
+
+.galeria img {
+  width: 100%;
+  height: 100%; }
+
+.galeria img:first-child {
+  grid-column: 1/3;
+  grid-row: 1/3; }
+
+.galeria img:nth-child(2) {
+  grid-column: 3/4;
+  grid-row: 1/3; }
+
+.galeria img:nth-child(3) {
+  grid-column: 2/4;
+  grid-row: 3/5; }
+
+.galeria img:last-child {
+  grid-column: 1/2;
+  grid-row: 3/5; }
+
+.cuenta {
+  text-align: center; }
+
+.email p {
+  font-family: "Krona One", sans-serif;
+  font-size: 20px; }
+
+.email input {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  font-family: "Krona One", sans-serif;
+  height: 35px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 50px; }
+
+.contraseña p {
+  font-family: "Krona One", sans-serif;
+  font-size: 20px; }
+
+.contraseña input {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  font-family: "Krona One", sans-serif;
+  height: 35px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 50px; }
+
+.olvidaste-tu-contraseña {
+  font-family: "Krona One", sans-serif;
+  font-size: 15px;
+  padding: 5px; }
+
+.iniciar input {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-family: "Krona One", sans-serif;
+  font-size: 15px;
+  align-content: center;
+  height: 45px;
+  width: 400px;
+  border-radius: 50px; }
+
+.iniciar input:active {
+  background-color: #232323; }
+
+.crear-cuenta {
+  font-family: "Krona One", sans-serif;
+  font-size: 15px;
+  padding: 5px; }
+
+.pie-de-pagina {
+  display: flex; }
+
+.pie-de-pagina div {
+  width: 100%;
+  height: 100px;
+  color: white;
+  align-content: center;
+  text-align: center; }
+
+.pie-de-pagina1 {
+  background-color: #232323; }
+
+.pie-de-pagina1 a img {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.pie-de-pagina2 {
+  background-color: #232323; }
+
+.pie-de-pagina2 h1 a {
+  font-family: "Krona One", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 45px; }
+
+.pie-de-pagina3 {
+  background-color: #232323;
+  font-family: "Krona One", sans-serif;
+  text-decoration: none; }
+
+/* UTILITIES */
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  .navbar {
+    display: grid;
+    height: 160px;
+    grid-template-columns: repeat(3, 34%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "item1 item2 item3" "item4 item5 item6"; }
+  .item1 {
+    grid-area: item1; }
+  .item2 {
+    grid-area: item2; }
+  .item3 {
+    grid-area: item3; }
+  .item4 {
+    grid-area: item4; }
+  .item5 {
+    grid-area: item5; }
+  .item6 {
+    grid-area: item6; } }
+
+@media (max-width: 520px) {
+  .navbar {
+    display: grid;
+    height: 240px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 34%);
+    grid-template-areas: "item1 item2" "item3 item4" "item5 item6"; } }
+
+@media (max-width: 768px) {
+  .datos {
+    display: grid;
+    height: 200px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "camion camion" "tarjeta candado"; }
+  .camion {
+    grid-area: camion; }
+  .tarjeta {
+    grid-area: tarjeta;
+    border-left: none;
+    border-right: none; }
+  .candado {
+    grid-area: candado; } }
+
+@media (max-width: 520px) {
+  .datos {
+    display: grid;
+    height: 470px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1, 60%);
+    grid-template-rows: repeat(3, 160px);
+    grid-template-areas: "camion" "tarjeta" "candado"; }
+  .camion {
+    grid-area: camion;
+    padding-bottom: 25px; }
+  .tarjeta {
+    grid-area: tarjeta;
+    padding: 15px 0px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; }
+  .candado {
+    padding-top: 25px;
+    grid-area: candado; } }
+
+@media (max-width: 320px) {
+  .camion {
+    padding-bottom: 25px; }
+  .candado {
+    padding-top: 25px; } }
+
+@media (max-width: 768px) {
+  .pie-de-pagina {
+    display: grid;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "pie-de-pagina2 pie-de-pagina2" "pie-de-pagina1 pie-de-pagina3"; }
+  .pie-de-pagina2 {
+    grid-area: pie-de-pagina2; }
+  .pie-de-pagina1 {
+    grid-area: pie-de-pagina1; }
+  .pie-de-pagina3 {
+    grid-area: pie-de-pagina3; } }
+
+@media (max-width: 520px) {
+  .pie-de-pagina {
+    display: grid;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, 33%);
+    grid-template-areas: "pie-de-pagina2" "pie-de-pagina1" "pie-de-pagina3"; }
+  .pie-de-pagina2 {
+    grid-area: pie-de-pagina2; }
+  .pie-de-pagina1 {
+    grid-area: pie-de-pagina1;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; }
+  .pie-de-pagina3 {
+    padding-top: 10px;
+    grid-area: pie-de-pagina3; } }
+
+@media (max-width: 768px) {
+  .somos {
+    width: 100%;
+    font-size: 30px;
+    padding: 0px 100px; } }
+
+@media (max-width: 520px) {
+  .somos {
+    padding: 10px 25px; } }
+
+@media (max-width: 1024px) {
+  .paso-a-paso {
+    width: 100%;
+    padding: 0px 100px; } }
+
+@media (max-width: 520px) {
+  .paso-a-paso {
+    width: 100%;
+    padding: 10px 25px;
+    padding-bottom: 20px; } }
+
+@media (max-width: 425px) {
+  .email input {
+    width: 300px; }
+  .contraseña input {
+    width: 300px; }
+  .iniciar input {
+    width: 300px; } }
