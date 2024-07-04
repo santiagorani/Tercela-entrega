@@ -26,7 +26,7 @@
   gap: 40px; }
 
 .prendas div {
-  width: 320px;
+  width: 300px;
   height: 300px;
   padding: 25px 20px; }
 
@@ -200,6 +200,15 @@
 .ver-mas-productos a:active {
   background-color: #3a3a3a; }
 
+.datos-productos {
+  display: flex;
+  font-family: "Krona One", sans-serif;
+  font-size: 15px; }
+
+.datos-productos div {
+  width: 100%;
+  text-align: center; }
+
 .datos-filas {
   display: flex;
   font-size: 20px;
@@ -243,7 +252,7 @@
 .galeria {
   display: grid;
   grid-template-columns: repeat(3, 25%);
-  grid-template-rows: repeat(4, 200px);
+  grid-template-rows: repeat(4, 25%);
   gap: .624rem;
   justify-content: center; }
 
@@ -355,6 +364,10 @@
 
 /* UTILITIES */
 /* MEDIA QUERY */
+@media (max-width: 1024px) {
+  .prendas {
+    gap: 10px; } }
+
 @media (max-width: 768px) {
   .navbar {
     display: grid;
