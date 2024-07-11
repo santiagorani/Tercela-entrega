@@ -1,27 +1,49 @@
+.cuadro-de-venta{
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  grid-template-rows: repeat(1, 100%);
+  grid-template-areas: 
+  "producto1 producto2 producto3";
+}
+
+.producto1{
+  grid-area: producto1;
+}
+.producto2{
+  grid-area: producto2;
+}
+.producto3{
+  grid-area: producto3;
+}
+
 .datos-productos {
   display: flex;
   font-family: "Krona One", sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;}
 
 .datos-productos div {
   width: 100%;
-  text-align: center; }
+  text-align: center; } 
 
 .datos-filas {
   display: flex;
   font-size: 20px;
-  width: 100%; }
+  width: 100%;
+  text-align: center; 
+  align-items: center;
+  justify-content: center;
+  padding: 5px;}
 
 .datos-filas div{
   width: 100%;
   text-align: center; 
   padding: 5px; }
 
-.datos-filas div img{
-  padding: 50px;
-}
-
-.datos-filas div a{
+.datos-filas a{
   color: white;
   text-decoration: none;
   background-color: black;

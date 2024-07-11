@@ -1,0 +1,19 @@
+@media(max-width:1024px){
+    .cuadro-de-venta{
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: repeat(3, 33.3%);
+      grid-template-areas: 
+      "producto1" 
+      "producto2"
+      "producto3";
+    }
+    .producto1{
+      grid-area: producto1;
+    }
+    .producto2{
+      grid-area: producto2;
+    }
+    .producto3{
+      grid-area: producto3;
+    }
+  }

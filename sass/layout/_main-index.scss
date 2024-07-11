@@ -8,7 +8,6 @@
 
 .descuento p {
   font-family: "Zen Dots", sans-serif;
-  font-size: 50px;
   color: white; }
 
 .descuento p {
@@ -19,14 +18,9 @@
 
 .ver-mas-fotos {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center; }
-
-.flecha-izquierda img:active {
-  background-color: #a7a7a7; }
-
-.flecha-derecha img:active {
-  background-color: #a7a7a7; }
 
 .ver-mas-productos{
 text-align: center; }
