@@ -20,13 +20,37 @@
   .prendas div {
     width: 300px;
     height: 300px;
-    padding: 25px 20px; }
+    }
   
   .prendas div p{
     color: white;
     text-decoration: none;
     font-family: "Krona One", sans-serif;
     font-size: 25px; }
+
+  .remera-prendas a{
+    text-decoration: none;
+    padding: 0px 300px 235px 300px;
+    p{
+      padding-left: 25px;
+    }
+  }
+
+  .pantalon-prendas a{
+    text-decoration: none;
+    padding: 0px 300px 235px 300px;
+    p{
+      padding-left: 25px;
+    }
+  }
+
+  .calzado-prendas a{
+    text-decoration: none;
+    padding: 0px 300px 235px 300px;
+    p{
+      padding-left: 25px;
+    }
+  }
 
 
 .datos {
